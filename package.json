@@ -1,0 +1,26 @@
+{
+  "name": "fcc-header-parser",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice. A project that is part of FreeCodeCamp's Backend Certification.",
+  "main": "app.js",
+  "engine": {
+    "node": "^4.4.2"
+  },
+  "scripts": {
+    "start": "node app.js", 
+    "test": "tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relwiwa/FCC-Header-Parser.git"
+  },
+  "author": "Walter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/relwiwa/FCC-Header-Parser/issues"
+  },
+  "homepage": "https://github.com/relwiwa/FCC-Header-Parser#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
